@@ -10,7 +10,7 @@ import { ingresoServicio } from './ingreso/ingreso.servicio';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+
   ingresos:ingreso[]=[];
   egresos:egreso[]=[];
 
@@ -23,7 +23,7 @@ export class AppComponent {
   getingresototal(){
     let ingresototal:number=0;
     this.ingresos.forEach(ingreso => {
-      ingresototal += ingreso.valor; 
+      ingresototal += ingreso.valor;
     });
     return ingresototal;
   }

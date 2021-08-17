@@ -21,7 +21,8 @@ body {
 
 .right { float: right; }
 .red { color: #FF5049 !important; }
-.redfocus:focus { border: 1px solid #FF5049 !important; }
+.redfocus:focus { border: 1px solid #FF5049 !important;
+background: #dc2430 !important; }
 
 .cabecero {
     height: 40vh;
